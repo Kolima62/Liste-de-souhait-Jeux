@@ -1,0 +1,52 @@
+/* Pour se servir de ca, utiliser var() dans le reste des fichiers  */
+/* :root {
+  --body-bgc: #
+    --hd-bgc: #
+
+    img {
+    max-width: 100%;
+  } */
+
+/* Mode mobile */
+@media only screen and (max-width: 360px) {
+  body {
+    margin-top: 16%;
+    padding: 16%;
+  }
+}
+
+/* Mode tablette  */
+@media only screen and (max-width: 981px) {
+  body {
+    margin: 0;
+    background-color: red;
+  }
+
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 25%;
+    background-color: #f1f1f1;
+    position: fixed;
+    height: 100%;
+    overflow: auto;
+  }
+
+  li a {
+    display: block;
+    color: #000;
+    padding: 8px 16px;
+    text-decoration: none;
+  }
+
+  li a.active {
+    background-color: #04aa6d;
+    color: white;
+  }
+
+  li a:hover:not(.active) {
+    background-color: #555;
+    color: white;
+  }
+}
