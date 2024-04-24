@@ -39,6 +39,53 @@ li a:hover {
   background-color: gold;
 }
 
+#nav {
+  padding-bottom: 50px;
+}
+
+#root {
+  border: 1px solid aqua;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  top: 0;
+}
+
+img {
+  max-width: 100%;
+}
+
+main {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+main .card h2 {
+  padding: 5px;
+  text-align: center;
+}
+
+main .card div.image {
+  min-height: 200px;
+  background: url() no-repeat center center / cover;
+
+  /* background-size: cover !important; */
+}
+
+main .card {
+  border: 1px solid grey;
+  border-radius: 8px;
+  /* padding: 5px; */
+  width: 400px;
+  /* min-width: 100px;
+  max-width: 300px; */
+}
+
+main .card .rating {
+  padding: 5px;
+}
+
 /* body {
   margin: 0;
   background-color: red;
