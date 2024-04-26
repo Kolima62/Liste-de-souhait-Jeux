@@ -32,11 +32,11 @@ li a {
 }
 
 li a:hover {
-  background-color: rgb(98, 183, 223);
+  background-color: #929196;
 }
 
 .active {
-  background-color: gold;
+  background-color: #d72638;
 }
 
 #nav {
@@ -44,11 +44,14 @@ li a:hover {
 }
 
 #root {
-  border: 1px solid aqua;
   left: 0;
   right: 0;
   bottom: 0;
   top: 0;
+}
+
+body {
+  background-color: #152028;
 }
 
 img {
@@ -78,12 +81,28 @@ main .card {
   border-radius: 8px;
   /* padding: 5px; */
   width: 400px;
+  background-color: white;
   /* min-width: 100px;
   max-width: 300px; */
 }
 
 main .card .rating {
   padding: 5px;
+}
+
+#searchInput {
+  /* width: 100%; Full-width */
+  font-size: 16px; /* Increase font-size */
+  padding: 10px; /* Add some padding */
+  border: 1px solid #ddd; /* Add a grey border */
+  margin-bottom: 12px; /* Add some space below the input */
+  margin-top: 50px;
+}
+
+#myUL {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
 }
 
 /* body {
